@@ -90,8 +90,9 @@ namespace EPriceRequestServiceDBEngine
             }
         }
 
-        public void DeleteUn1tCategories(List<int> idCategories)
+        public bool DeleteUn1tCategories(List<int> idCategories)
         {
+            var result = true;
             using (var conn = new SqlConnection(_connectionString))
             {
                 var cmd = conn.CreateCommand();
@@ -102,23 +103,25 @@ namespace EPriceRequestServiceDBEngine
                 {
                     cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("@id", id);
-                    cmd.ExecuteNonQuery();   
+                    if (result) result = cmd.ExecuteNonQuery() > 0;
                 }
             }
+            return result;
         }
 
-        public void DeleteUn1tCategory(int idCategory)
+        public bool DeleteUn1tCategory(int idCategory)
         {
+            var result = false;
             using (var conn = new SqlConnection(_connectionString))
             {
                 var cmd = conn.CreateCommand();
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "DeleteUN1TCategory";
                 conn.Open();
-                cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@id", idCategory);
-                cmd.ExecuteNonQuery();
+                result = cmd.ExecuteNonQuery() > 0;
             }
+            return result;
         }
 
         public void UpdateUn1tCategory(int idCategory, string newName)

@@ -1434,7 +1434,6 @@ namespace EPriceProviderServices
             catch (Exception ex)
             {
                 Log.WriteToLog(LogSender + " DeleteUn1tCategoryTreeViewItem() ", ex.Message);
-                MessageBox.Show(ErrorMessage);
             }
         }
 
@@ -1459,32 +1458,19 @@ namespace EPriceProviderServices
             }
         }
 
-        private async void DeleteUn1tCategory(Un1tCategory category)
+        private void DeleteUn1tCategory(Un1tCategory category)
         {
-            var deleteList = GetUn1TCategoriesForDelete(category);
-            foreach (var un1TCategory in deleteList)
+            var isLocked = false;
+            try
             {
-                _un1tCategories.Remove(un1TCategory);
-            }
-            var deleteComplete = await Task.Run(() =>
-            {
-                var isComplete = false;
-                try
+                Monitor.Enter(_lockObj, ref isLocked);
+                var deleteList = GetUn1TCategoriesForDelete(category);
+                foreach (var un1TCategory in deleteList)
                 {
-                    var db = new DbEngine();
-                    db.DeleteUn1tCategories(deleteList.Select(x => x.Id).ToList());
-                    isComplete = true;
+                    _un1tCategories.Remove(un1TCategory);
                 }
-                catch (Exception ex)
-                {
-                    Log.WriteToLog(LogSender,
-                        " DbEngine DeleteUn1tCategories() Ошибка: " + ex.Message);
-                    isComplete = false;
-                }
-                return isComplete;
-            });
-            Dispatcher.Invoke(() =>
-            {
+                var db = new DbEngine();
+                var deleteComplete = db.DeleteUn1tCategory(category.Id);
                 if (deleteComplete)
                 {
                     txtStatus.Text = "Категория и все подкатегории удалены из БД";
@@ -1493,7 +1479,17 @@ namespace EPriceProviderServices
                 {
                     MessageBox.Show("Ошибка при удалении категории из Базы Данных!");
                 }
-            });
+            }
+            catch (Exception ex)
+            {
+                Log.WriteToLog(LogSender, " DeleteUn1tCategory() Ошибка: " + ex.Message);
+                MessageBox.Show("Ошибка при удалении категории из Базы Данных!");
+                throw;
+            }
+            finally
+            {
+                if (isLocked) Monitor.Exit(_lockObj);
+            }
         }
 
         private List<Un1tCategory> GetUn1TCategoriesForDelete(Un1tCategory deleteCategory)
