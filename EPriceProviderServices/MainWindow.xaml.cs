@@ -77,7 +77,7 @@ namespace EPriceProviderServices
         private bool _firstLoadCategory;
         private Un1tCategoryItemView _selectedUn1tCategoryView;
         private readonly List<Un1tCategoryViewModel> _un1tCategoryViewModels;
-        private readonly int PropertyLoadThreadCount;
+        private readonly int DataLoadThreadCount;
 
         #endregion
 
@@ -92,7 +92,7 @@ namespace EPriceProviderServices
                     _isClose = true;
                     Close();
                 }
-                PropertyLoadThreadCount = int.Parse(ConfigurationManager.AppSettings.Get("ThreadCount"));
+                DataLoadThreadCount = int.Parse(ConfigurationManager.AppSettings.Get("ThreadCount"));
                 _firstLoadCategory = true;
                 _isClose = false;
                 _loadingData = false;
@@ -2387,7 +2387,7 @@ namespace EPriceProviderServices
                 var categoriesToLoad = dataLevel.GetCategoriesToLoad();
                 if (categoriesToLoad.Count() > 1)
                 {
-                    var threadCount = categoriesToLoad.Count() > 3 ? 4 : categoriesToLoad.Count();
+                    var threadCount = categoriesToLoad.Count() > DataLoadThreadCount - 1 ? DataLoadThreadCount : categoriesToLoad.Count();
                     service.GetProductsForCategoriesMultiThread(categoriesToLoad, ProductsLoadMultiThreadComplete,
                         threadCount);
                     WriteToLog("Стартовала загрузка товаров (многопоточно) " + provider);
@@ -2669,7 +2669,7 @@ namespace EPriceProviderServices
                 var categoriesToLoad = dataLevel.GetCategoriesToLoad();
                 if (categoriesToLoad.Count() > 1)
                 {
-                    var threadCount = categoriesToLoad.Count() > 3 ? 4 : categoriesToLoad.Count();
+                    var threadCount = categoriesToLoad.Count() > DataLoadThreadCount - 1 ? DataLoadThreadCount : categoriesToLoad.Count();
                     service.GetStocksForCategoriesMultiThread(categoriesToLoad, StocksLoadMultiThreadComplete,
                         threadCount);
                     WriteToLog("Стартовала загрузка цен (многопоточно) " + provider);
@@ -3011,7 +3011,11 @@ namespace EPriceProviderServices
                         {
                             productsId = newProducts.Select(x => x.IdProvider).ToList();
                         }
-                        service.GetPropertiesForProductsMultiThread(productsId, PropertiesLoadMultiThreadComplete, UpdatePropertyProgress, 4);
+                        service.GetPropertiesForProductsMultiThread(productsId, PropertiesLoadMultiThreadComplete,
+                            UpdatePropertyProgress,
+                            (productsId.Count() > DataLoadThreadCount - 1)
+                                ? DataLoadThreadCount
+                                : productsId.Count());
                     }
                 }
             }
