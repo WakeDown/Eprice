@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -76,6 +77,7 @@ namespace EPriceProviderServices
         private bool _firstLoadCategory;
         private Un1tCategoryItemView _selectedUn1tCategoryView;
         private readonly List<Un1tCategoryViewModel> _un1tCategoryViewModels;
+        private readonly int PropertyLoadThreadCount;
 
         #endregion
 
@@ -90,6 +92,7 @@ namespace EPriceProviderServices
                     _isClose = true;
                     Close();
                 }
+                PropertyLoadThreadCount = int.Parse(ConfigurationManager.AppSettings.Get("ThreadCount"));
                 _firstLoadCategory = true;
                 _isClose = false;
                 _loadingData = false;
