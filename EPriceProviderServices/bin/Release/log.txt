@@ -1,0 +1,55 @@
+28.05.2015 16.34.19 Main App FillTreeView()  Истекло время ожидания. Время ожидания истекло раньше, чем удалось получить подключение из пула. Возможно, все подключения в пуле уже используются и достигнут максимальный размер пула.
+28.05.2015 16.34.19 Main App FillTreeView()  Истекло время ожидания. Время ожидания истекло раньше, чем удалось получить подключение из пула. Возможно, все подключения в пуле уже используются и достигнут максимальный размер пула.
+28.05.2015 16.34.19 Main App FillTreeView()  Истекло время ожидания. Время ожидания истекло раньше, чем удалось получить подключение из пула. Возможно, все подключения в пуле уже используются и достигнут максимальный размер пула.
+28.05.2015 16.34.19 Main App FillTreeView()  При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Named Pipes Provider, error: 40 - Не удалось открыть подключение к SQL Server)
+28.05.2015 16.44.56 Main App FillTreeView()  Истекло время ожидания. Время ожидания истекло раньше, чем удалось получить подключение из пула. Возможно, все подключения в пуле уже используются и достигнут максимальный размер пула.
+28.05.2015 16.45.00 Main App FillTreeView()  Истекло время ожидания. Время ожидания истекло раньше, чем удалось получить подключение из пула. Возможно, все подключения в пуле уже используются и достигнут максимальный размер пула.
+28.05.2015 16.48.53 Main App FillTreeView()  Недопустимое значение ключа "integrated security".
+28.05.2015 16.48.53 Main App FillTreeView()  Недопустимое значение ключа "integrated security".
+28.05.2015 16.48.53 Main App FillTreeView()  Недопустимое значение ключа "integrated security".
+28.05.2015 16.48.59 Main App FillTreeView()  Недопустимое значение ключа "integrated security".
+28.05.2015 16.49.13 Main App FillTreeView()  Недопустимое значение ключа "integrated security".
+28.05.2015 16.51.51 Main App FillTreeView()  Недопустимое значение ключа "integrated security".
+28.05.2015 16.52.57 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.52.57 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.23 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.23 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.23 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.23 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.29 Main App FillUn1tCatalogs()  Ошибка: Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.57 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.57 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.54.57 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.55.00 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.55.01 Main App FillUn1tCatalogs()  Ошибка: Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+28.05.2015 16.55.18 Main App FillTreeView()  Cannot open database "e_price" requested by the login. The login failed.
+Login failed for user 'sqlUnit_prog'.
+29.05.2015 13.21.08 OCS уровень данных SaveCategories()  Ошибка: Процесс не может получить доступ к файлу "D:\GoogleDrive\Dev\GitHub\Eprice\EPriceProviderServices\bin\Release\OCSCategories.dt", так как этот файл используется другим процессом.
+29.05.2015 13.21.08 Main App FillTreeView()  Процесс не может получить доступ к файлу "D:\GoogleDrive\Dev\GitHub\Eprice\EPriceProviderServices\bin\Release\OCSCategories.dt", так как этот файл используется другим процессом.
+03.06.2015 17.41.49 Merlion служба Конструктор()  Ошибка: Объект только для чтения.
+03.06.2015 17.41.49 Main App Конструктор()  Объект только для чтения.
+03.06.2015 17.41.51 Main App FillTreeView() Merlion . Ошибка: Ссылка на объект не указывает на экземпляр объекта.
+03.06.2015 17.41.51 Main App FillTreeView() OCS . Ошибка: Ссылка на объект не указывает на экземпляр объекта.
+03.06.2015 17.41.51 Main App FillTreeView()  Ссылка на объект не указывает на экземпляр объекта.
+03.06.2015 17.41.51 Main App FillTreeView()  Ссылка на объект не указывает на экземпляр объекта.
+03.06.2015 17.41.51 Main App FillTreeView() Treolan . Ошибка: Ссылка на объект не указывает на экземпляр объекта.
+03.06.2015 17.41.51 Main App FillTreeView() OLDI . Ошибка: Ссылка на объект не указывает на экземпляр объекта.
+03.06.2015 17.41.51 Main App FillTreeView()  Ссылка на объект не указывает на экземпляр объекта.
+03.06.2015 17.41.51 Main App FillTreeView()  Ссылка на объект не указывает на экземпляр объекта.
+05.06.2015 16.35.06 Merlion служба GetShipmentMethods()  Ошибка: Запрос HTTP не разрешен для схемы аутентификации клиента "Basic". От сервера получен заголовок аутентификации "Basic realm="Restricted access to web-service."".
+05.06.2015 16.50.41 Merlion служба GetCategoryAsync(All)  Ошибка: Запрос HTTP не разрешен для схемы аутентификации клиента "Basic". От сервера получен заголовок аутентификации "Basic realm="Restricted access to web-service."".
+05.06.2015 16.50.41 Main App ReloadProviderCatalog(Merlion)  Запрос HTTP не разрешен для схемы аутентификации клиента "Basic". От сервера получен заголовок аутентификации "Basic realm="Restricted access to web-service."".
+05.06.2015 16.51.01 Treolan служба GetAllCategoriesAsync()  Ошибка: Прослушивание на https://api.treolan.ru/webservices/treolan.ASP не выполняла ни одна конечная точка, которая могла бы принять сообщение. Среди прочих причин это могло быть вызвано неправильным адресом или действием SOAP. Подробнее см. в описании InnerException (если имеется).
+05.06.2015 16.51.01 Main App ReloadProviderCatalog(Treolan)  Прослушивание на https://api.treolan.ru/webservices/treolan.ASP не выполняла ни одна конечная точка, которая могла бы принять сообщение. Среди прочих причин это могло быть вызвано неправильным адресом или действием SOAP. Подробнее см. в описании InnerException (если имеется).

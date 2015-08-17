@@ -25,6 +25,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using System.Xml.XPath;
+using ClosedXML.Excel;
 using EPriceProviderServices.Helpers;
 using EPriceProviderServices.MerlionDataService;
 using EPriceProviderServices.Models;
@@ -36,6 +37,7 @@ using EPriceRequestServiceDBEngine.Models;
 using CatalogResult = EPriceProviderServices.MerlionDataService.CatalogResult;
 using MessageBox = System.Windows.MessageBox;
 using TreeView = System.Windows.Controls.TreeView;
+using System.Data;
 
 namespace EPriceProviderServices
 {
@@ -199,6 +201,7 @@ namespace EPriceProviderServices
                 btnNewUn1tCategory.IsEnabled = true;
                 btnEditUn1tCategory.IsEnabled = true;
                 btnDeleteUn1tCategory.IsEnabled = true;
+
             }
             catch (Exception ex)
             {
@@ -207,6 +210,8 @@ namespace EPriceProviderServices
             }
 
         }
+
+        
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -243,7 +248,7 @@ namespace EPriceProviderServices
             if (_trayIcon == null)
             {
                 _trayIcon = new NotifyIcon();
-                _trayIcon.Icon = new System.Drawing.Icon("18.ico");
+                _trayIcon.Icon = EPriceProviderServices.Properties.Resources.favicon;// new System.Drawing.Icon("favicon.ico");
                 _trayIcon.Text = "Provider Service";
                 var trayMeny = Resources["TrayMenu"] as System.Windows.Controls.ContextMenu;
                 _trayIcon.Click += (sender, e) =>
@@ -498,6 +503,9 @@ namespace EPriceProviderServices
                 {
                     var treeViewItems = GetTreeViewItems(dataLevel);
                     treeView.Items.Clear();
+
+                    //FillExcel(treeViewItems, provider);
+
                     foreach (var treeViewItem in treeViewItems)
                     {
                         treeView.Items.Add(treeViewItem);
@@ -510,6 +518,101 @@ namespace EPriceProviderServices
                 MessageBox.Show(ErrorMessage);
             }
         }
+
+        private void FillExcel(TreeViewItem[] treeViewItems, ProviderType provider)
+        {
+            //XLWorkbook excBook = null;
+            //var ms = new MemoryStream();
+            //var filePath = System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "Catalogs.xlsx");
+            //using (var fs = System.IO.File.OpenRead(filePath))
+            //{
+            //    var buffer = new byte[fs.Length];
+            //    fs.Read(buffer, 0, buffer.Count());
+            //    ms.Write(buffer, 0, buffer.Count());
+            //    ms.Seek(0, SeekOrigin.Begin);
+            //}
+
+            XLWorkbook wb = new XLWorkbook();
+            var wsName = String.Empty;
+
+            switch (provider)
+            {
+              case  ProviderType.Merlion:
+                    wsName = "Merlion";
+                    break;
+              case ProviderType.OCS:
+                    wsName = "OCS";
+                    break;
+              case ProviderType.OLDI:
+                    wsName = "Oldi";
+                    break;
+              case ProviderType.Treolan:
+                    wsName = "Treolan";
+                    break;
+                default:
+                    wsName = provider.ToString();
+                    break;
+            }
+
+            IXLWorksheet ws = wb.Worksheets.Add(wsName);
+
+            int rowNum = 1;
+            var list = new List<string>();
+
+            foreach (TreeViewItem item in treeViewItems)
+            {
+                var name = ((CategoryItemView)((TreeViewItem)item).Header).CategoryItemName.Text;
+                ws.Cell(rowNum++, 1).Value = name.ToString();
+                list.Add(name.ToString());
+
+                if (item.Items != null)
+                {
+                    foreach (var it in item.Items)
+                    {
+                        if (it != null)
+                        {
+                            name = String.Format("    {0}",((CategoryItemView)((TreeViewItem) it).Header).CategoryItemName.Text);
+                            ws.Cell(rowNum++, 1).Value = name.ToString();
+                            list.Add(name.ToString());
+
+                            if (it is TreeViewItem)
+                            {
+                                foreach (var i in ((TreeViewItem)it).Items)
+                                {
+                                    if (i != null)
+                                    {
+                                        name = String.Format("        {0}", ((CategoryItemView)((TreeViewItem)i).Header).CategoryItemName.Text);
+                                        ws.Cell(rowNum++, 1).Value = name.ToString();
+                                        list.Add(name.ToString());
+
+                                        if (i is TreeViewItem)
+                                        {
+                                            foreach (var ii in ((TreeViewItem)i).Items)
+                                            {
+                                                if (ii != null)
+                                                {
+                                                    name = String.Format("            {0}", ((CategoryItemView)((TreeViewItem)ii).Header).CategoryItemName.Text);
+                                                    ws.Cell(rowNum++, 1).Value = name.ToString();
+                                                    list.Add(name.ToString());
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            wb.SaveAs(String.Format("Catalog{0}.xlsx", wsName));
+
+            //excBook.SaveAs(ms);
+            //excBook.Dispose();
+            //ms.Seek(0, SeekOrigin.Begin);
+        }
+
+       
 
         private TreeViewItem GetTreeViewItemForUn1tCategory(Un1tCategory category, List<Un1tCategory> list)
         {
@@ -1470,7 +1573,7 @@ namespace EPriceProviderServices
                     _un1tCategories.Remove(un1TCategory);
                 }
                 var db = new DbEngine();
-                var deleteComplete = db.DeleteUn1tCategory(category.Id);
+                bool deleteComplete = (bool)db.DeleteUn1tCategory(category.Id);
                 if (deleteComplete)
                 {
                     txtStatus.Text = "Категория и все подкатегории удалены из БД";

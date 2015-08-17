@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPriceRequestServiceDBEngin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPriceViewer", "EPriceViewer\EPriceViewer.csproj", "{AC87C934-AF19-4C76-8871-BAC23E0EDA11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceMachine", "PriceMachine\PriceMachine.csproj", "{EAA70E78-8B58-41F1-960A-11C7CA7EDBD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AC87C934-AF19-4C76-8871-BAC23E0EDA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC87C934-AF19-4C76-8871-BAC23E0EDA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC87C934-AF19-4C76-8871-BAC23E0EDA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA70E78-8B58-41F1-960A-11C7CA7EDBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA70E78-8B58-41F1-960A-11C7CA7EDBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA70E78-8B58-41F1-960A-11C7CA7EDBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA70E78-8B58-41F1-960A-11C7CA7EDBD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 ﻿<Window x:Class="EPriceProviderServices.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Provider Services управление" Height="620" Width="1000" MinHeight="620" MinWidth="1000" Closing="Window_Closing" Loaded="Window_Loaded">
+        Title="Provider Services управление" Height="620" Width="1033.724" MinHeight="620" MinWidth="1000" Closing="Window_Closing" Loaded="Window_Loaded">
     <Window.Resources>
         <ContextMenu x:Key="TrayMenu">
             <MenuItem Header="Выйти" Click="MenuExitClick" />

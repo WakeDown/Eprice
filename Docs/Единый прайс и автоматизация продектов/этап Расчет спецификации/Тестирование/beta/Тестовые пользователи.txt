@@ -1,0 +1,7 @@
+SC_Operator
+SC_Manager
+SC_Prod 
+SC_Kontroler
+SC_Konkurs
+
+Pass: z-123456

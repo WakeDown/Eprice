@@ -3,3 +3,8 @@ C:\Users\Tim452\Desktop\Work\UN1T\EPrice\EPriceProviderServices\Eprice\EPriceReq
 C:\Users\Tim452\Desktop\Work\UN1T\EPrice\EPriceProviderServices\Eprice\EPriceRequestServiceDBEngine\obj\Debug\EPriceRequestServiceDBEngine.csprojResolveAssemblyReference.cache
 C:\Users\Tim452\Desktop\Work\UN1T\EPrice\EPriceProviderServices\Eprice\EPriceRequestServiceDBEngine\obj\Debug\EPriceRequestServiceDBEngine.dll
 C:\Users\Tim452\Desktop\Work\UN1T\EPrice\EPriceProviderServices\Eprice\EPriceRequestServiceDBEngine\obj\Debug\EPriceRequestServiceDBEngine.pdb
+D:\GoogleDrive\Dev\GitHub\Eprice\EPriceRequestServiceDBEngine\bin\Debug\EPriceRequestServiceDBEngine.dll
+D:\GoogleDrive\Dev\GitHub\Eprice\EPriceRequestServiceDBEngine\bin\Debug\EPriceRequestServiceDBEngine.pdb
+D:\GoogleDrive\Dev\GitHub\Eprice\EPriceRequestServiceDBEngine\obj\Debug\EPriceRequestServiceDBEngine.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Dev\GitHub\Eprice\EPriceRequestServiceDBEngine\obj\Debug\EPriceRequestServiceDBEngine.dll
+D:\GoogleDrive\Dev\GitHub\Eprice\EPriceRequestServiceDBEngine\obj\Debug\EPriceRequestServiceDBEngine.pdb

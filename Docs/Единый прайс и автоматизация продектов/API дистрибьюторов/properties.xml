@@ -1,0 +1,1366 @@
+<?xml version="1.0"?>
+<ArrayOfProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Property>
+    <Id>812</Id>
+    <Name>Тип корпуса</Name>
+  </Property>
+  <Property>
+    <Id>500318</Id>
+    <Name>Процессор</Name>
+  </Property>
+  <Property>
+    <Id>500319</Id>
+    <Name>Оперативная память</Name>
+  </Property>
+  <Property>
+    <Id>500320</Id>
+    <Name>Видеокарта</Name>
+  </Property>
+  <Property>
+    <Id>7572</Id>
+    <Name>Чипсет материнской платы</Name>
+  </Property>
+  <Property>
+    <Id>2111</Id>
+    <Name>Объем SSD</Name>
+  </Property>
+  <Property>
+    <Id>7569</Id>
+    <Name>Монитор в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>831</Id>
+    <Name>Поддержка Wi-Fi</Name>
+  </Property>
+  <Property>
+    <Id>7591</Id>
+    <Name>Разъемов PS/2</Name>
+  </Property>
+  <Property>
+    <Id>7592</Id>
+    <Name>Разъемов USB 2.0</Name>
+  </Property>
+  <Property>
+    <Id>7593</Id>
+    <Name>Разъемов USB 3.0</Name>
+  </Property>
+  <Property>
+    <Id>7594</Id>
+    <Name>Разъемов e-SATA</Name>
+  </Property>
+  <Property>
+    <Id>7595</Id>
+    <Name>Разъемов IEEE1394 (Firewire)</Name>
+  </Property>
+  <Property>
+    <Id>7612</Id>
+    <Name>Разъемов RS-232</Name>
+  </Property>
+  <Property>
+    <Id>8249</Id>
+    <Name>Разъемов IEEE 1284 (LPT)</Name>
+  </Property>
+  <Property>
+    <Id>7596</Id>
+    <Name>Разъемов D-Sub</Name>
+  </Property>
+  <Property>
+    <Id>7597</Id>
+    <Name>Разъемов DVI</Name>
+  </Property>
+  <Property>
+    <Id>7598</Id>
+    <Name>Разъемов HDMI</Name>
+  </Property>
+  <Property>
+    <Id>7599</Id>
+    <Name>Разъемов DisplayPort</Name>
+  </Property>
+  <Property>
+    <Id>9370</Id>
+    <Name>Разъемов Mini DisplayPort</Name>
+  </Property>
+  <Property>
+    <Id>7614</Id>
+    <Name>Разъем для микрофона</Name>
+  </Property>
+  <Property>
+    <Id>7613</Id>
+    <Name>Разъем для наушников</Name>
+  </Property>
+  <Property>
+    <Id>829</Id>
+    <Name>Встроенный кард-ридер</Name>
+  </Property>
+  <Property>
+    <Id>835</Id>
+    <Name>Колонки в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>832</Id>
+    <Name>Встроенный TV-тюнер</Name>
+  </Property>
+  <Property>
+    <Id>2182</Id>
+    <Name>Пульт ДУ в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>500514</Id>
+    <Name>Размеры корпуса</Name>
+  </Property>
+  <Property>
+    <Id>837</Id>
+    <Name>Основной цвет корпуса</Name>
+  </Property>
+  <Property>
+    <Id>2006</Id>
+    <Name>Поддержка Bluetooth</Name>
+  </Property>
+  <Property>
+    <Id>500321</Id>
+    <Name>Операционная система компьютера</Name>
+  </Property>
+  <Property>
+    <Id>2002</Id>
+    <Name>Диагональ экрана</Name>
+  </Property>
+  <Property>
+    <Id>500317</Id>
+    <Name>Разрешение</Name>
+  </Property>
+  <Property>
+    <Id>4283</Id>
+    <Name>Яркость экрана</Name>
+  </Property>
+  <Property>
+    <Id>4282</Id>
+    <Name>Контраст к 1</Name>
+  </Property>
+  <Property>
+    <Id>4284</Id>
+    <Name>Время отклика</Name>
+  </Property>
+  <Property>
+    <Id>827</Id>
+    <Name>Тип ODD</Name>
+  </Property>
+  <Property>
+    <Id>826</Id>
+    <Name>Объем HDD</Name>
+  </Property>
+  <Property>
+    <Id>833</Id>
+    <Name>Клавиатура в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>834</Id>
+    <Name>Мышь в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>10072</Id>
+    <Name>Особенности</Name>
+  </Property>
+  <Property>
+    <Id>830</Id>
+    <Name>Звук</Name>
+  </Property>
+  <Property>
+    <Id>2205</Id>
+    <Name>Объем второго HDD</Name>
+  </Property>
+</ArrayOfProperty>  <Id>499</Id>
+    <Name>Тип</Name>
+  </Property>
+  <Property>
+    <Id>503</Id>
+    <Name>Разрешение сенсора, макс.</Name>
+  </Property>
+  <Property>
+    <Id>520</Id>
+    <Name>Цвет оформления</Name>
+  </Property>
+  <Property>
+    <Id>7160</Id>
+    <Name>Интерфейс подключения</Name>
+  </Property>
+  <Property>
+    <Id>513</Id>
+    <Name>Для геймеров</Name>
+  </Property>
+  <Property>
+    <Id>506</Id>
+    <Name>Количество кнопок</Name>
+  </Property>
+  <Property>
+    <Id>500</Id>
+    <Name>Подключение по USB</Name>
+  </Property>
+  <Property>
+    <Id>502</Id>
+    <Name>Тип соединения</Name>
+  </Property>
+  <Property>
+    <Id>4488</Id>
+    <Name>Длина провода</Name>
+  </Property>
+  <Property>
+    <Id>4490</Id>
+    <Name>Радиус действия</Name>
+  </Property>
+  <Property>
+    <Id>7157</Id>
+    <Name>Поддержка разрешений</Name>
+  </Property>
+  <Property>
+    <Id>504</Id>
+    <Name>Изменение чувствительности сенсора кнопкой</Name>
+  </Property>
+  <Property>
+    <Id>7164</Id>
+    <Name>Количество программируемых клавиш</Name>
+  </Property>
+  <Property>
+    <Id>510</Id>
+    <Name>Сменные цветные панели</Name>
+  </Property>
+  <Property>
+    <Id>511</Id>
+    <Name>Сменные панели (форма, эргономика)</Name>
+  </Property>
+  <Property>
+    <Id>512</Id>
+    <Name>Сменные грузы (картриджей) для регулировки веса</Name>
+  </Property>
+  <Property>
+    <Id>515</Id>
+    <Name>Питание от</Name>
+  </Property>
+  <Property>
+    <Id>516</Id>
+    <Name>Зарядное устройство в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>509</Id>
+    <Name>Индикация заряда батарей</Name>
+  </Property>
+  <Property>
+    <Id>518</Id>
+    <Name>Коврик в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>519</Id>
+    <Name>Чехол в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>523</Id>
+    <Name>Тип поставки</Name>
+  </Property>
+  <Property>
+    <Id>650</Id>
+    <Name>Акустический тип</Name>
+  </Property>
+  <Property>
+    <Id>196</Id>
+    <Name>Суммарная звуковая мощность</Name>
+  </Property>
+  <Property>
+    <Id>191</Id>
+    <Name>Мощность сабвуфера</Name>
+  </Property>
+  <Property>
+    <Id>199</Id>
+    <Name>Беспроводное соединение колонок</Name>
+  </Property>
+  <Property>
+    <Id>500293</Id>
+    <Name>Частотный диапазон</Name>
+  </Property>
+  <Property>
+    <Id>500298</Id>
+    <Name>Цвет акустики</Name>
+  </Property>
+  <Property>
+    <Id>4336</Id>
+    <Name>Тип акустики</Name>
+  </Property>
+  <Property>
+    <Id>8547</Id>
+    <Name>Тип электропитания</Name>
+  </Property>
+  <Property>
+    <Id>4397</Id>
+    <Name>Отношение сигнал/шум</Name>
+  </Property>
+  <Property>
+    <Id>8548</Id>
+    <Name>Импеданс</Name>
+  </Property>
+  <Property>
+    <Id>4399</Id>
+    <Name>Количество фронтальных колонок</Name>
+  </Property>
+  <Property>
+    <Id>4400</Id>
+    <Name>Количество тыловых колонок</Name>
+  </Property>
+  <Property>
+    <Id>8587</Id>
+    <Name>Встроенный FM-тюнер</Name>
+  </Property>
+  <Property>
+    <Id>4344</Id>
+    <Name>Пульт ДУ</Name>
+  </Property>
+  <Property>
+    <Id>4342</Id>
+    <Name>Разъем для наушников</Name>
+  </Property>
+  <Property>
+    <Id>8595</Id>
+    <Name>Разъем для микрофона</Name>
+  </Property>
+  <Property>
+    <Id>8584</Id>
+    <Name>Расположение регуляторов</Name>
+  </Property>
+  <Property>
+    <Id>8586</Id>
+    <Name>Разъем USB</Name>
+  </Property>
+  <Property>
+    <Id>8588</Id>
+    <Name>Поддержка карт памяти</Name>
+  </Property>
+  <Property>
+    <Id>4358</Id>
+    <Name>Общий вес</Name>
+  </Property>
+  <Property>
+    <Id>500294</Id>
+    <Name>Размеры фронтальных колонок</Name>
+  </Property>
+  <Property>
+    <Id>525</Id>
+    <Name>Интерфейс с компьютером</Name>
+  </Property>
+  <Property>
+    <Id>529</Id>
+    <Name>Стандарт Bluetooth</Name>
+  </Property>
+  <Property>
+    <Id>531</Id>
+    <Name>Стандарт Wi-Fi 802.11a</Name>
+  </Property>
+  <Property>
+    <Id>532</Id>
+    <Name>Стандарт Wi-Fi 802.11b</Name>
+  </Property>
+  <Property>
+    <Id>533</Id>
+    <Name>Стандарт Wi-Fi 802.11g</Name>
+  </Property>
+  <Property>
+    <Id>534</Id>
+    <Name>Стандарт Wi-Fi 802.11n</Name>
+  </Property>
+  <Property>
+    <Id>535</Id>
+    <Name>Антенна, тип</Name>
+  </Property>
+  <Property>
+    <Id>540</Id>
+    <Name>Количество антенн</Name>
+  </Property>
+  <Property>
+    <Id>4339</Id>
+    <Name>Линейный вход (стерео)</Name>
+  </Property>
+  <Property>
+    <Id>279</Id>
+    <Name>Интерфейс</Name>
+  </Property>
+  <Property>
+    <Id>282</Id>
+    <Name>GPU, производитель</Name>
+  </Property>
+  <Property>
+    <Id>283</Id>
+    <Name>GPU, модель</Name>
+  </Property>
+  <Property>
+    <Id>284</Id>
+    <Name>Частота графического процессора</Name>
+  </Property>
+  <Property>
+    <Id>286</Id>
+    <Name>Объем видеопамяти</Name>
+  </Property>
+  <Property>
+    <Id>285</Id>
+    <Name>Тип видеопамяти</Name>
+  </Property>
+  <Property>
+    <Id>287</Id>
+    <Name>Разъемов DVI (Dual-Link)</Name>
+  </Property>
+  <Property>
+    <Id>288</Id>
+    <Name>Поддержка HDCP</Name>
+  </Property>
+  <Property>
+    <Id>295</Id>
+    <Name>Тип поставки</Name>
+  </Property>
+  <Property>
+    <Id>290</Id>
+    <Name>TV-out</Name>
+  </Property>
+  <Property>
+    <Id>289</Id>
+    <Name>D-SUB</Name>
+  </Property>
+  <Property>
+    <Id>2108</Id>
+    <Name>HDMI</Name>
+  </Property>
+  <Property>
+    <Id>3457</Id>
+    <Name>Mini HDMI</Name>
+  </Property>
+  <Property>
+    <Id>2215</Id>
+    <Name>Display Port</Name>
+  </Property>
+  <Property>
+    <Id>3502</Id>
+    <Name>Mini Display Port</Name>
+  </Property>
+  <Property>
+    <Id>291</Id>
+    <Name>Вентилятор</Name>
+  </Property>
+  <Property>
+    <Id>292</Id>
+    <Name>Радиатор</Name>
+  </Property>
+  <Property>
+    <Id>293</Id>
+    <Name>Использование тепловых трубок</Name>
+  </Property>
+  <Property>
+    <Id>294</Id>
+    <Name>OverClock Edition</Name>
+  </Property>
+  <Property>
+    <Id>500307</Id>
+    <Name>Графический процессор</Name>
+  </Property>
+  <Property>
+    <Id>2205</Id>
+    <Name>Объем второго HDD</Name>
+  </Property>
+  <Property>
+    <Id>749</Id>
+    <Name>Функциональный тип</Name>
+  </Property>
+  <Property>
+    <Id>750</Id>
+    <Name>Разъем1</Name>
+  </Property>
+  <Property>
+    <Id>751</Id>
+    <Name>Разъем2</Name>
+  </Property>
+  <Property>
+    <Id>755</Id>
+    <Name>Длина</Name>
+  </Property>
+  <Property>
+    <Id>752</Id>
+    <Name>Ферритовые фильтры</Name>
+  </Property>
+  <Property>
+    <Id>753</Id>
+    <Name>Экранированный (усиленное экранирование)</Name>
+  </Property>
+  <Property>
+    <Id>754</Id>
+    <Name>Позолоченные контакты</Name>
+  </Property>
+  <Property>
+    <Id>839</Id>
+    <Name>Подсветка</Name>
+  </Property>
+  <Property>
+    <Id>1331</Id>
+    <Name>Цвет</Name>
+  </Property>
+  <Property>
+    <Id>1318</Id>
+    <Name>Тип устройства</Name>
+  </Property>
+  <Property>
+    <Id>1319</Id>
+    <Name>Поддержка CF</Name>
+  </Property>
+  <Property>
+    <Id>1320</Id>
+    <Name>Поддержка SD</Name>
+  </Property>
+  <Property>
+    <Id>1321</Id>
+    <Name>Поддержка mini-SD</Name>
+  </Property>
+  <Property>
+    <Id>1322</Id>
+    <Name>Поддержка micro-SD</Name>
+  </Property>
+  <Property>
+    <Id>1329</Id>
+    <Name>Поддержка xD-Picture Card</Name>
+  </Property>
+  <Property>
+    <Id>1328</Id>
+    <Name>Поддержка SM</Name>
+  </Property>
+  <Property>
+    <Id>1326</Id>
+    <Name>Поддержка MS</Name>
+  </Property>
+  <Property>
+    <Id>1327</Id>
+    <Name>Поддержка MS Duo</Name>
+  </Property>
+  <Property>
+    <Id>1323</Id>
+    <Name>Поддержка MMC</Name>
+  </Property>
+  <Property>
+    <Id>1324</Id>
+    <Name>Поддержка RS-MMC</Name>
+  </Property>
+  <Property>
+    <Id>1325</Id>
+    <Name>Поддержка MMC-micro</Name>
+  </Property>
+  <Property>
+    <Id>1565</Id>
+    <Name>Количество USB портов</Name>
+  </Property>
+  <Property>
+    <Id>1864</Id>
+    <Name>Подключение</Name>
+  </Property>
+  <Property>
+    <Id>1865</Id>
+    <Name>Количество USB</Name>
+  </Property>
+  <Property>
+    <Id>2123</Id>
+    <Name>Количество e-SATA</Name>
+  </Property>
+  <Property>
+    <Id>1866</Id>
+    <Name>Количество SATA</Name>
+  </Property>
+  <Property>
+    <Id>1867</Id>
+    <Name>Количество IEEE 1394 (4-pin)</Name>
+  </Property>
+  <Property>
+    <Id>2113</Id>
+    <Name>Количество DVI</Name>
+  </Property>
+  <Property>
+    <Id>2181</Id>
+    <Name>Количество PCI</Name>
+  </Property>
+  <Property>
+    <Id>1868</Id>
+    <Name>IrDA</Name>
+  </Property>
+  <Property>
+    <Id>106</Id>
+    <Name>Интерфейс</Name>
+  </Property>
+  <Property>
+    <Id>103</Id>
+    <Name>Объем накопителя</Name>
+  </Property>
+  <Property>
+    <Id>99</Id>
+    <Name>Серия</Name>
+  </Property>
+  <Property>
+    <Id>105</Id>
+    <Name>Скорость вращения шпинделя</Name>
+  </Property>
+  <Property>
+    <Id>104</Id>
+    <Name>Буферная память</Name>
+  </Property>
+  <Property>
+    <Id>101</Id>
+    <Name>Форм-фактор накопителя (физический)</Name>
+  </Property>
+  <Property>
+    <Id>2173</Id>
+    <Name>Тип жесткого диска</Name>
+  </Property>
+  <Property>
+    <Id>4483</Id>
+    <Name>Максимальная скорость чтения</Name>
+  </Property>
+  <Property>
+    <Id>4482</Id>
+    <Name>Максимальная скорость записи</Name>
+  </Property>
+  <Property>
+    <Id>4485</Id>
+    <Name>Адаптер 2.5" - 3.5" в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>309</Id>
+    <Name>Основной цвет</Name>
+  </Property>
+  <Property>
+    <Id>307</Id>
+    <Name>Интерфейс</Name>
+  </Property>
+  <Property>
+    <Id>315</Id>
+    <Name>Клавиатура Slim-дизайна</Name>
+  </Property>
+  <Property>
+    <Id>313</Id>
+    <Name>Мультимедийные дополнительные клавиши</Name>
+  </Property>
+  <Property>
+    <Id>314</Id>
+    <Name>Спец. клавиши, устройства для геймеров</Name>
+  </Property>
+  <Property>
+    <Id>319</Id>
+    <Name>Подсветка клавиш</Name>
+  </Property>
+  <Property>
+    <Id>320</Id>
+    <Name>Перезаряжаемая (с базой для подзарядки)</Name>
+  </Property>
+  <Property>
+    <Id>500502</Id>
+    <Name>Цвет</Name>
+  </Property>
+  <Property>
+    <Id>4417</Id>
+    <Name>Разрядность шины видеопамяти</Name>
+  </Property>
+  <Property>
+    <Id>4416</Id>
+    <Name>Частота видеопамяти</Name>
+  </Property>
+  <Property>
+    <Id>4424</Id>
+    <Name>Разъемов HDMI</Name>
+  </Property>
+  <Property>
+    <Id>4425</Id>
+    <Name>Разъемов mini HDMI</Name>
+  </Property>
+  <Property>
+    <Id>4423</Id>
+    <Name>Разъемов D-SUB</Name>
+  </Property>
+  <Property>
+    <Id>4426</Id>
+    <Name>Разъемов Display Port</Name>
+  </Property>
+  <Property>
+    <Id>4427</Id>
+    <Name>Разъемов Mini Display Port</Name>
+  </Property>
+  <Property>
+    <Id>4677</Id>
+    <Name>Разъемов DVI (Single-Link)</Name>
+  </Property>
+  <Property>
+    <Id>4422</Id>
+    <Name>Разъемов TV-out</Name>
+  </Property>
+  <Property>
+    <Id>4429</Id>
+    <Name>Рекомендуемая производителем мощность БП</Name>
+  </Property>
+  <Property>
+    <Id>4432</Id>
+    <Name>Длина видеокарты</Name>
+  </Property>
+  <Property>
+    <Id>4430</Id>
+    <Name>Система охлаждения</Name>
+  </Property>
+  <Property>
+    <Id>4431</Id>
+    <Name>Низкопрофильная видеокарта</Name>
+  </Property>
+  <Property>
+    <Id>500442</Id>
+    <Name>Максимальное разрешение</Name>
+  </Property>
+  <Property>
+    <Id>1746</Id>
+    <Name>Количество модулей</Name>
+  </Property>
+  <Property>
+    <Id>1745</Id>
+    <Name>Емкость одного модуля</Name>
+  </Property>
+  <Property>
+    <Id>1747</Id>
+    <Name>Частотная спецификация</Name>
+  </Property>
+  <Property>
+    <Id>1779</Id>
+    <Name>Объем первого HDD</Name>
+  </Property>
+  <Property>
+    <Id>758</Id>
+    <Name>Тип памяти</Name>
+  </Property>
+  <Property>
+    <Id>759</Id>
+    <Name>Объем</Name>
+  </Property>
+  <Property>
+    <Id>760</Id>
+    <Name>Частотная спецификация</Name>
+  </Property>
+  <Property>
+    <Id>756</Id>
+    <Name>Серия</Name>
+  </Property>
+  <Property>
+    <Id>763</Id>
+    <Name>Тип поставки</Name>
+  </Property>
+  <Property>
+    <Id>841</Id>
+    <Name>Error Checking and Correction (ECC)</Name>
+  </Property>
+  <Property>
+    <Id>843</Id>
+    <Name>Буферизация</Name>
+  </Property>
+  <Property>
+    <Id>842</Id>
+    <Name>Низкопрофильная память (Low Profile)</Name>
+  </Property>
+  <Property>
+    <Id>761</Id>
+    <Name>Радиатор охлаждения</Name>
+  </Property>
+  <Property>
+    <Id>4341</Id>
+    <Name>Стерео-вход AUX INPUT</Name>
+  </Property>
+  <Property>
+    <Id>1736</Id>
+    <Name>Серия</Name>
+  </Property>
+  <Property>
+    <Id>1739</Id>
+    <Name>Частота процессора</Name>
+  </Property>
+  <Property>
+    <Id>13258</Id>
+    <Name>Вентилятор в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>3324</Id>
+    <Name>Буферная память HDD</Name>
+  </Property>
+  <Property>
+    <Id>45</Id>
+    <Name>Тип (по классу носителя)</Name>
+  </Property>
+  <Property>
+    <Id>14544</Id>
+    <Name>РАЗМЕР</Name>
+  </Property>
+  <Property>
+    <Id>44</Id>
+    <Name>Модель (опт привод)</Name>
+  </Property>
+  <Property>
+    <Id>46</Id>
+    <Name>Цвет</Name>
+  </Property>
+  <Property>
+    <Id>47</Id>
+    <Name>Интерфейс</Name>
+  </Property>
+  <Property>
+    <Id>55</Id>
+    <Name>Slim</Name>
+  </Property>
+  <Property>
+    <Id>56</Id>
+    <Name>Тип поставки</Name>
+  </Property>
+  <Property>
+    <Id>6673</Id>
+    <Name>CD скорость чтения, макс</Name>
+  </Property>
+  <Property>
+    <Id>48</Id>
+    <Name>DVD скорость чтения, макс</Name>
+  </Property>
+  <Property>
+    <Id>50</Id>
+    <Name>Blu-ray скорость чтения, макс</Name>
+  </Property>
+  <Property>
+    <Id>49</Id>
+    <Name>HD-DVD скорость чтения, макс</Name>
+  </Property>
+  <Property>
+    <Id>52</Id>
+    <Name>HD-DVD скорость записи, макс</Name>
+  </Property>
+  <Property>
+    <Id>6680</Id>
+    <Name>Cкорость записи CD-R</Name>
+  </Property>
+  <Property>
+    <Id>6681</Id>
+    <Name>Cкорость записи CD-RW</Name>
+  </Property>
+  <Property>
+    <Id>6674</Id>
+    <Name>Cкорость записи DVD-R</Name>
+  </Property>
+  <Property>
+    <Id>6676</Id>
+    <Name>Cкорость записи DVD-RW</Name>
+  </Property>
+  <Property>
+    <Id>6675</Id>
+    <Name>Cкорость записи DVD+R</Name>
+  </Property>
+  <Property>
+    <Id>6677</Id>
+    <Name>Cкорость записи DVD+RW</Name>
+  </Property>
+  <Property>
+    <Id>6678</Id>
+    <Name>Cкорость записи DVD-R DL</Name>
+  </Property>
+  <Property>
+    <Id>6688</Id>
+    <Name>Cкорость записи DVD+R DL</Name>
+  </Property>
+  <Property>
+    <Id>6679</Id>
+    <Name>Cкорость записи DVD-RAM</Name>
+  </Property>
+  <Property>
+    <Id>6684</Id>
+    <Name>Cкорость записи BD-R</Name>
+  </Property>
+  <Property>
+    <Id>6685</Id>
+    <Name>Cкорость записи BD-R DL</Name>
+  </Property>
+  <Property>
+    <Id>6686</Id>
+    <Name>Cкорость записи BD-RE</Name>
+  </Property>
+  <Property>
+    <Id>53</Id>
+    <Name>Blu-ray скорость записи, макс</Name>
+  </Property>
+  <Property>
+    <Id>4476</Id>
+    <Name>Размер буфера</Name>
+  </Property>
+  <Property>
+    <Id>54</Id>
+    <Name>Загрузка диска</Name>
+  </Property>
+  <Property>
+    <Id>1897</Id>
+    <Name>Возможность питания от USB</Name>
+  </Property>
+  <Property>
+    <Id>6706</Id>
+    <Name>Сменные лицевые панели в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>4283</Id>
+    <Name>Яркость экрана</Name>
+  </Property>
+  <Property>
+    <Id>4282</Id>
+    <Name>Контраст к 1</Name>
+  </Property>
+  <Property>
+    <Id>4284</Id>
+    <Name>Время отклика</Name>
+  </Property>
+  <Property>
+    <Id>4340</Id>
+    <Name>Линейный вход многоканальный (аналоговый)</Name>
+  </Property>
+  <Property>
+    <Id>5469</Id>
+    <Name>Тип</Name>
+  </Property>
+  <Property>
+    <Id>5475</Id>
+    <Name>Панель Multi Touch</Name>
+  </Property>
+  <Property>
+    <Id>5499</Id>
+    <Name>Длина кабеля</Name>
+  </Property>
+  <Property>
+    <Id>5501</Id>
+    <Name>Радиус действия</Name>
+  </Property>
+  <Property>
+    <Id>6402</Id>
+    <Name>Цифровой блок</Name>
+  </Property>
+  <Property>
+    <Id>5508</Id>
+    <Name>Цвет русских букв</Name>
+  </Property>
+  <Property>
+    <Id>5507</Id>
+    <Name>Цвет английских букв</Name>
+  </Property>
+  <Property>
+    <Id>5486</Id>
+    <Name>Защита от попадания жидкостей</Name>
+  </Property>
+  <Property>
+    <Id>5503</Id>
+    <Name>Тип элементов питания</Name>
+  </Property>
+  <Property>
+    <Id>5502</Id>
+    <Name>Количество элементов питания</Name>
+  </Property>
+  <Property>
+    <Id>5506</Id>
+    <Name>Максимальное время работы</Name>
+  </Property>
+  <Property>
+    <Id>5513</Id>
+    <Name>Глубина клавиатуры</Name>
+  </Property>
+  <Property>
+    <Id>5081</Id>
+    <Name>Стандарт Wi-Fi 802.11n (150 Mbps)</Name>
+  </Property>
+  <Property>
+    <Id>5082</Id>
+    <Name>Стандарт Wi-Fi 802.11n (300 Mbps)</Name>
+  </Property>
+  <Property>
+    <Id>5085</Id>
+    <Name>Цвет</Name>
+  </Property>
+  <Property>
+    <Id>6621</Id>
+    <Name>Количество HDD</Name>
+  </Property>
+  <Property>
+    <Id>500501</Id>
+    <Name>Размеры клавиатуры</Name>
+  </Property>
+  <Property>
+    <Id>4690</Id>
+    <Name>Версия разъема Display Port</Name>
+  </Property>
+  <Property>
+    <Id>14165</Id>
+    <Name>Разъем наушники/микрофон</Name>
+  </Property>
+  <Property>
+    <Id>10036</Id>
+    <Name>Сенсорная область</Name>
+  </Property>
+  <Property>
+    <Id>7461</Id>
+    <Name>Серия</Name>
+  </Property>
+  <Property>
+    <Id>1139</Id>
+    <Name>Основной цвет клавиатуры</Name>
+  </Property>
+  <Property>
+    <Id>1154</Id>
+    <Name>Основной цвет (мышь)</Name>
+  </Property>
+  <Property>
+    <Id>1128</Id>
+    <Name>Интерфейс подключения</Name>
+  </Property>
+  <Property>
+    <Id>1129</Id>
+    <Name>Тип соединения</Name>
+  </Property>
+  <Property>
+    <Id>7424</Id>
+    <Name>Мультимедийные дополнительные клавиши</Name>
+  </Property>
+  <Property>
+    <Id>7430</Id>
+    <Name>Цифровой блок</Name>
+  </Property>
+  <Property>
+    <Id>7431</Id>
+    <Name>Цвет английских букв</Name>
+  </Property>
+  <Property>
+    <Id>7432</Id>
+    <Name>Цвет русских букв</Name>
+  </Property>
+  <Property>
+    <Id>500507</Id>
+    <Name>Цвет клавиатуры</Name>
+  </Property>
+  <Property>
+    <Id>500508</Id>
+    <Name>Цвет мыши</Name>
+  </Property>
+  <Property>
+    <Id>500509</Id>
+    <Name>Размеры клавиатуры</Name>
+  </Property>
+  <Property>
+    <Id>500511</Id>
+    <Name>Размеры мыши</Name>
+  </Property>
+  <Property>
+    <Id>9939</Id>
+    <Name>Разъемов Thunderbolt</Name>
+  </Property>
+  <Property>
+    <Id>10865</Id>
+    <Name>Серия</Name>
+  </Property>
+  <Property>
+    <Id>500290</Id>
+    <Name>Операционная система ноутбука</Name>
+  </Property>
+  <Property>
+    <Id>148</Id>
+    <Name>Семейство</Name>
+  </Property>
+  <Property>
+    <Id>150</Id>
+    <Name>Диагональ экрана в дюймах</Name>
+  </Property>
+  <Property>
+    <Id>163</Id>
+    <Name>Поворотный экран (Tablet PC)</Name>
+  </Property>
+  <Property>
+    <Id>500286</Id>
+    <Name>Разрешение</Name>
+  </Property>
+  <Property>
+    <Id>500287</Id>
+    <Name>Процессор </Name>
+  </Property>
+  <Property>
+    <Id>500289</Id>
+    <Name>Видеокарта </Name>
+  </Property>
+  <Property>
+    <Id>966</Id>
+    <Name>Тип графического контроллера</Name>
+  </Property>
+  <Property>
+    <Id>500288</Id>
+    <Name>Оперативная память </Name>
+  </Property>
+  <Property>
+    <Id>160</Id>
+    <Name>Объем HDD №1</Name>
+  </Property>
+  <Property>
+    <Id>161</Id>
+    <Name>Тип ODD</Name>
+  </Property>
+  <Property>
+    <Id>165</Id>
+    <Name>Поддержка технологии Wi-Fi</Name>
+  </Property>
+  <Property>
+    <Id>167</Id>
+    <Name>Поддержка технологии Bluetooth</Name>
+  </Property>
+  <Property>
+    <Id>164</Id>
+    <Name>Порты USB 2.0</Name>
+  </Property>
+  <Property>
+    <Id>170</Id>
+    <Name>Разъем e-SATA</Name>
+  </Property>
+  <Property>
+    <Id>166</Id>
+    <Name>Разъем IEEE 1394 (Firewire)</Name>
+  </Property>
+  <Property>
+    <Id>169</Id>
+    <Name>Разъем HDMI</Name>
+  </Property>
+  <Property>
+    <Id>168</Id>
+    <Name>Веб-камера</Name>
+  </Property>
+  <Property>
+    <Id>173</Id>
+    <Name>Цветовое решение</Name>
+  </Property>
+  <Property>
+    <Id>500292</Id>
+    <Name>Размеры корпуса </Name>
+  </Property>
+  <Property>
+    <Id>175</Id>
+    <Name>Вес</Name>
+  </Property>
+  <Property>
+    <Id>1106</Id>
+    <Name>Сумка в комплекте</Name>
+  </Property>
+  <Property>
+    <Id>14163</Id>
+    <Name>Тип матрицы</Name>
+  </Property>
+  <Property>
+    <Id>12991</Id>
+    <Name>Разъемов micro USB 2.0</Name>
+  </Property>
+  <Property>
+    <Id>9338</Id>
+    <Name>Цвет</Name>
+  </Property>
+  <Property>
+    <Id>2947</Id>
+    <Name>Длина шнура</Name>
+  </Property>
+  <Property>
+    <Id>2938</Id>
+    <Name>Тип амбушюр</Name>
+  </Property>
+  <Property>
+    <Id>2939</Id>
+    <Name>Тип соединения</Name>
+  </Property>
+  <Property>
+    <Id>2936</Id>
+    <Name>Тип гарнитуры</Name>
+  </Property>
+  <Property>
+    <Id>9315</Id>
+    <Name>Регулятор громкости</Name>
+  </Property>
+  <Property>
+    <Id>9341</Id>
+    <Name>Съемный микрофон</Name>
+  </Property>
+  <Property>
+    <Id>2937</Id>
+    <Name>Тип, акустический</Name>
+  </Property>
+  <Property>
+    <Id>9320</Id>
+    <Name>Максимальная мощность</Name>
+  </Property>
+  <Property>
+    <Id>2940</Id>
+    <Name>Нижняя граница диапазона динамика</Name>
+  </Property>
+  <Property>
+    <Id>2941</Id>
+    <Name>Верхняя граница диапазона динамика</Name>
+  </Property>
+  <Property>
+    <Id>2942</Id>
+    <Name>Импеданс</Name>
+  </Property>
+  <Property>
+    <Id>2943</Id>
+    <Name>Чувствительность динамика</Name>
+  </Property>
+  <Property>
+    <Id>9323</Id>
+    <Name>Режим объемного звучания</Name>
+  </Property>
+  <Property>
+    <Id>2944</Id>
+    <Name>Нижняя граница диапазона микрофона</Name>
+  </Property>
+  <Property>
+    <Id>2945</Id>
+    <Name>Верхняя граница диапазона микрофона</Name>
+  </Property>
+  <Property>
+    <Id>2948</Id>
+    <Name>Коннектор</Name>
+  </Property>
+  <Property>
+    <Id>9326</Id>
+    <Name>Тип коннектора</Name>
+  </Property>
+  <Property>
+    <Id>9329</Id>
+    <Name>Для геймеров</Name>
+  </Property>
+  <Property>
+    <Id>9333</Id>
+    <Name>Переходник на 2.5 мм</Name>
+  </Property>
+  <Property>
+    <Id>9334</Id>
+    <Name>Переходник на 3.5 мм</Name>
+  </Property>
+  <Property>
+    <Id>9335</Id>
+    <Name>Переходник на 6.3 мм</Name>
+  </Property>
+  <Property>
+    <Id>500460</Id>
+    <Name>Частотный диапазон</Name>
+  </Property>
+  <Property>
+    <Id>7426</Id>
+    <Name>Спец. клавиши, устройства для геймеров</Name>
+  </Property>
+  <Property>
+    <Id>1131</Id>
+    <Name>Клавиатура Slim-дизайна</Name>
+  </Property>
+  <Property>
+    <Id>7436</Id>
+    <Name>Панель Multi Touch</Name>
+  </Property>
+  <Property>
+    <Id>1135</Id>
+    <Name>Подсветка клавиш</Name>
+  </Property>
+  <Property>
+    <Id>7421</Id>
+    <Name>Длина провода клавиатуры</Name>
+  </Property>
+  <Property>
+    <Id>7422</Id>
+    <Name>Длина провода мыши</Name>
+  </Property>
+  <Property>
+    <Id>792</Id>
+    <Name>Серия</Name>
+  </Property>
+  <Property>
+    <Id>2176</Id>
+    <Name>Основной цвет</Name>
+  </Property>
+  <Property>
+    <Id>5699</Id>
+    <Name>Разрешение матрицы</Name>
+  </Property>
+  <Property>
+    <Id>6298</Id>
+    <Name>Макс. разрешение кадра по горизонтали</Name>
+  </Property>
+  <Property>
+    <Id>6299</Id>
+    <Name>Макс. разрешение кадра по вертикали</Name>
+  </Property>
+  <Property>
+    <Id>794</Id>
+    <Name>Интерфейс</Name>
+  </Property>
+  <Property>
+    <Id>795</Id>
+    <Name>Микрофон</Name>
+  </Property>
+  <Property>
+    <Id>800</Id>
+    <Name>Для ноутбуков</Name>
+  </Property>
+  <Property>
+    <Id>6300</Id>
+    <Name>Ручная фокуссировка</Name>
+  </Property>
+  <Property>
+    <Id>797</Id>
+    <Name>Автоматическое слежение</Name>
+  </Property>
+  <Property>
+    <Id>796</Id>
+    <Name>Автоматическая фокусировка</Name>
+  </Property>
+  <Property>
+    <Id>5709</Id>
+    <Name>Тип установки (крепления)</Name>
+  </Property>
+  <Property>
+    <Id>5710</Id>
+    <Name>Длина кабеля</Name>
+  </Property>
+  <Property>
+    <Id>500316</Id>
+    <Name>Разрешение</Name>
+  </Property>
+  <Property>
+    <Id>8287</Id>
+    <Name>Тип разъема</Name>
+  </Property>
+  <Property>
+    <Id>10692</Id>
+    <Name>Стандарт Wi-Fi 802.11n (450 Mbps)</Name>
+  </Property>
+  <Property>
+    <Id>11059</Id>
+    <Name>Стандарт Wi-Fi 802.11ac</Name>
+  </Property>
+  <Property>
+    <Id>15927</Id>
+    <Name>Разъемов mini USB 2.0</Name>
+  </Property>
+  <Property>
+    <Id>15926</Id>
+    <Name>Разъемов miniHDMI</Name>
+  </Property>
+  <Property>
+    <Id>13799</Id>
+    <Name>Разъемов Thunderbolt 2</Name>
+  </Property>
+  <Property>
+    <Id>1278</Id>
+    <Name>Интерфейс</Name>
+  </Property>
+  <Property>
+    <Id>1380</Id>
+    <Name>Серия</Name>
+  </Property>
+  <Property>
+    <Id>1279</Id>
+    <Name>Звуковая схема</Name>
+  </Property>
+  <Property>
+    <Id>1379</Id>
+    <Name>Тип поставки</Name>
+  </Property>
+  <Property>
+    <Id>1291</Id>
+    <Name>Панель управления в комплекте</Name>
+  </Property>
+</ArrayOfProperty>

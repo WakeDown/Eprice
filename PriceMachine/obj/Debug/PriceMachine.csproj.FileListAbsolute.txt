@@ -1,0 +1,7 @@
+D:\GoogleDrive\Dev\GitHub\Eprice\PriceMachine\bin\Debug\PriceMachine.exe.config
+D:\GoogleDrive\Dev\GitHub\Eprice\PriceMachine\bin\Debug\PriceMachine.exe
+D:\GoogleDrive\Dev\GitHub\Eprice\PriceMachine\bin\Debug\PriceMachine.pdb
+D:\GoogleDrive\Dev\GitHub\Eprice\PriceMachine\bin\Debug\Newtonsoft.Json.dll
+D:\GoogleDrive\Dev\GitHub\Eprice\PriceMachine\bin\Debug\Newtonsoft.Json.xml
+D:\GoogleDrive\Dev\GitHub\Eprice\PriceMachine\obj\Debug\PriceMachine.exe
+D:\GoogleDrive\Dev\GitHub\Eprice\PriceMachine\obj\Debug\PriceMachine.pdb

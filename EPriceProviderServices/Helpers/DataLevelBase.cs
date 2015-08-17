@@ -35,7 +35,28 @@ namespace EPriceProviderServices.Helpers
             _lockObj = new object();
             _logSender = _provider + " уровень данных";
             _categories = LoadCategories();
+
+            //SaveCat2Excel();
         }
+        //private void SaveCat2Excel()
+        //{
+        //    XLWorkbook excBook = null;
+        //    var ms = new MemoryStream();
+        //    var filePath = System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "Catalogs.xlsx");
+        //    using (var fs = System.IO.File.OpenRead(filePath))
+        //    {
+        //        var buffer = new byte[fs.Length];
+        //        fs.Read(buffer, 0, buffer.Count());
+        //        ms.Write(buffer, 0, buffer.Count());
+        //        ms.Seek(0, SeekOrigin.Begin);
+        //    }
+
+        //    foreach (TreeViewItem item in treeViewItems)
+        //    {
+
+        //    }
+        //}
+        
 
         #region Set differnt data 
 

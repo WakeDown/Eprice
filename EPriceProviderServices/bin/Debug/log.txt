@@ -1,0 +1,4 @@
+07.07.2015 11.29.14 Main App  DbEngine CreateUn1tCategory(Все) Ошибка: Violation of PRIMARY KEY constraint 'PK__UN1TCate__3214EC077F60ED59'. Cannot insert duplicate key in object 'dbo.UN1TCategory'. The duplicate key value is (1).
+The statement has been terminated.
+07.07.2015 11.32.55 Main App btnToggleCategoryView_Click() Значение не может быть неопределенным.
+Имя параметра: source

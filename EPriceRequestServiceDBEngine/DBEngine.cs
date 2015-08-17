@@ -119,7 +119,7 @@ namespace EPriceRequestServiceDBEngine
                 cmd.CommandText = "DeleteUN1TCategory";
                 conn.Open();
                 cmd.Parameters.AddWithValue("@id", idCategory);
-                result = cmd.ExecuteNonQuery() > 0;
+                result = (bool)(cmd.ExecuteNonQuery() > 0);
             }
             return result;
         }

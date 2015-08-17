@@ -1,0 +1,43 @@
+//Получение SID екущего ползователя
+IIdentity WinId = HttpContext.Current.User.Identity;
+WindowsIdentity wi = (WindowsIdentity)WinId;
+string sid = wi.User.Value;
+
+//Логин текущего пользователя
+IIdentity WinId = HttpContext.Current.User.Identity;
+WindowsIdentity wi = (WindowsIdentity)WinId;
+string userLogin = wi.Name.Remove(0, wi.Name.IndexOf("\\") + 1);
+
+
+//Проверка есть ли пользователь в группе доступа
+WindowsIdentity wi = new WindowsIdentity(userLogin);
+WindowsPrincipal wp = new WindowsPrincipal(wi);
+SecurityIdentifier grpSid = new SecurityIdentifier(strGroupSid);
+bool flag = wp.IsInRole(grpSid);
+
+//Получение до параметров пользователя из AD
+string DomainPath = "LDAP://DC=UN1T,DC=GROUP";
+string login = wi.Name.Remove(0, wi.Name.IndexOf("\\") + 1);
+PrincipalContext domain = new PrincipalContext(ContextType.Domain);
+UserPrincipal userPrincipal = UserPrincipal.FindByIdentity(domain, login);
+string mail = userPrincipal.EmailAddress;
+string dep = GetProperty(userPrincipal, "department");
+string manager = UserPrincipal.FindByIdentity(domain, GetProperty(userPrincipal, "manager")).DisplayName;
+
+public static String GetProperty(Principal principal, String property)
+{
+    DirectoryEntry directoryEntry = principal.GetUnderlyingObject() as DirectoryEntry;
+    if (directoryEntry.Properties.Contains(property))
+       return directoryEntry.Properties[property].Value.ToString();
+    else
+       return String.Empty;
+}
+
+//Получение списка членов группы
+PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
+
+GroupPrincipal grp = GroupPrincipal.FindByIdentity(ctx, IdentityType.Name, "SpeCalc-Manager");
+foreach (Principal p in grp.GetMembers(true))
+{
+     var name = p.Name;
+}

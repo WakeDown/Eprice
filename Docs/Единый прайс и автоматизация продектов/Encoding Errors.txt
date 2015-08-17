@@ -1,0 +1,20 @@
+﻿Due to the limitations of the supported zip file format, the following file(s) had to be renamed.
+
+Original File Name  ->  New File Name
+API дистрибьюторов/Merlion/FW  API Merlion для Юнит .msg -> 1/Merlion/File1.msg
+API дистрибьюторов/OCS/B@B connector-2.ppsx -> 1/OCS/B@B connector-2.ppsx
+API дистрибьюторов/OCS/Особенности вызова B2B JSON web сервиса.doc -> 1/OCS/File3.doc
+API дистрибьюторов/OCS/Система обмена информацией между OCS и партнерами - блок резервы.doc -> 1/OCS/File4.doc
+API дистрибьюторов/OCS/Система обмена информацией между OCS и партнерами - блок товарный катало....doc -> 1/OCS/File5.doc
+API дистрибьюторов/Oldi/Юнит-Копир ООО _подключении через API.msg -> 1/Oldi/File6.msg
+API дистрибьюторов/Treolan/Инструкция по веб-сервисам v1.11.doc -> 1/Treolan/File7.doc
+Спринты/Спринт 0/План и выполнение.xlsx -> 2/3/File8.xlsx
+Спринты/Спринт 0/План спринт 0.docx -> 2/3/File9.docx
+Бюджет проекта.docx -> File10.docx
+Записки по проекту Единый прайс/OneNote_RecycleBin/OneNote_DeletedPages.one -> 4/OneNote_RecycleBin/OneNote_DeletedPages.one
+Записки по проекту Единый прайс/OneNote_RecycleBin/Открыть записную книжку.onetoc2 -> 4/OneNote_RecycleBin/File12.onetoc2
+Записки по проекту Единый прайс/Заметки к совещаниям.one -> 4/File13.one
+Записки по проекту Единый прайс/Открыть записную книжку.onetoc2 -> 4/File14.onetoc2
+План проекта.mpp -> File15.mpp
+Реестр требований.docx -> File16.docx
+Устав проекта.docx -> File17.docx
